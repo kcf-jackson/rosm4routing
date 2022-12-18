@@ -1,0 +1,16 @@
+Package: rosm4routing
+Title: R bindings to the Rust library 'osm4routing'
+Version: 0.1.0
+Authors@R: 
+    person("Chun Fung", "Kwok", , "kcf.jackson@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-0716-3879"))
+Description: Provides R bindings to the Rust library 'osm4routing'. Converts
+    OpenStreetMap PBF files to CSV files. 
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
+NeedsCompilation: yes
+Packaged: 2022-12-03 22:08:02 UTC; jkwok
+Author: Chun Fung Kwok [aut, cre] (<https://orcid.org/0000-0002-0716-3879>)
+Maintainer: Chun Fung Kwok <kcf.jackson@gmail.com>
